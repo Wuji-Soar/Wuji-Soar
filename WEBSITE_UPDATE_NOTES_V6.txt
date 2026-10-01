@@ -1,0 +1,8 @@
+WUJI SOAR GLOBAL TRADING Website V6.0
+
+- Product hero banner framework added
+- Request Quote / Get Proposal CTA added
+- Product specification tables added
+- English / Chinese structure prepared
+- GA4 and Search Console placeholders added
+- Image WebP optimization and ALT improvements added

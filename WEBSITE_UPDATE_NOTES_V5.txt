@@ -1,0 +1,6 @@
+V5.0 upgrades:
+- Enterprise SEO titles and descriptions
+- Organization structured data
+- sitemap.xml and robots.txt
+- Mobile navigation refinement
+- Improved quote-ready UX foundation

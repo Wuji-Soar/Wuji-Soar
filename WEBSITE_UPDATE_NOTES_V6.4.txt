@@ -1,0 +1,5 @@
+V6.4 updates:
+- Added breadcrumb navigation
+- Added related products module
+- Added Product Schema markup
+- Improved mobile related links

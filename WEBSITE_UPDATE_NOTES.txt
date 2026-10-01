@@ -1,0 +1,7 @@
+Updated: product subpages are generated from images folder subfolders.
+Generated pages:
+products-led-display.html
+products-metal-processing-and-fabrication.html
+products-led-lighting.html
+products-led-landscape-art.html
+products-premium-bluetooth-audio-series.html
