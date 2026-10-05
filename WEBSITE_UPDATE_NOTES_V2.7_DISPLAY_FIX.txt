@@ -1,0 +1,22 @@
+WUJI SOAR WEBSITE V2.7 — DISPLAY / PATH REPAIR
+
+Fixed:
+1. Repaired a JavaScript syntax error in app.js that prevented the homepage product catalog/category cards from rendering.
+2. Restored Automotive Parts as the second product category.
+3. Standardized product navigation order across English and Chinese pages:
+   Home
+   Metal Processing & Fabrication
+   Automotive Parts
+   LED Landscape Art
+   LED Lighting System
+   LED Display
+   Premium Bluetooth Audio Series
+   Seating System
+   Contact
+4. Fixed malformed WUJI SOAR brand markup on the legacy seating page.
+5. Standardized Seating System navigation to products-seating-system.html.
+6. Fixed all Chinese-page relative CSS, image and JavaScript paths (../css, ../images, ../app.js).
+7. Fixed broken Chinese-page internal navigation references.
+8. Verified local HTML asset references: no missing local image/CSS/script/page targets remain.
+9. Verified app.js syntax with Node.js.
+10. Kept the supplied WUJI logo/favicon setup.

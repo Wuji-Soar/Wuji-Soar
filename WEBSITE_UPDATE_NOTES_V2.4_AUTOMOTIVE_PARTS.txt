@@ -1,0 +1,13 @@
+WUJI SOAR website update V2.4 — Automotive Parts
+
+Added category: Automotive Parts
+Products:
+- Aluminum Water Pipe
+- Axle
+- Control Arm
+- Engine Mounting
+- Oil Sump
+- Water Pump
+
+Updated: English navigation, homepage category catalog, product filtering data, related links, footer Quick Links, sitemap, and Chinese automotive parts page.
+Images are stored under images/Auto Parts/.

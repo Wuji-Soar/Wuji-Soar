@@ -12,11 +12,22 @@ const PRODUCTS = {
     {name:"Custom Metal Components", subcategory:"Custom Metal Components", file:"images/Metal Processing & Fabrication/08_Custom_Metal_Components.jpg", desc:"Tailored metal components developed around drawings, samples or project requirements.", use:"OEM / ODM parts, prototypes, replacement components and custom assemblies"}
   ],
 
-  "LED Lighting": [
-    {name:"Architectural & Commercial Lighting", subcategory:"Architectural & Commercial", file:"images/LED Lighting/01_Architectural_Commercial_Lighting.jpg", desc:"High-efficiency LED lighting for commercial and architectural environments.", use:"Retail, hospitality, offices, façades, public spaces and commercial projects"},
-    {name:"Indoor Linear & Ambient Lighting", subcategory:"Indoor Linear & Ambient", file:"images/LED Lighting/02_Indoor_Linear_Ambient_Lighting.jpg", desc:"Clean, modern LED solutions for ambient, linear and interior lighting.", use:"Homes, hotels, offices, showrooms, restaurants and interior projects"},
-    {name:"Outdoor & Garden Lighting", subcategory:"Outdoor & Garden", file:"images/LED Lighting/03_Outdoor_Garden_Lighting.jpg", desc:"Weather-oriented lighting concepts for outdoor spaces and landscape projects.", use:"Gardens, pathways, resorts, parks, entrances and outdoor commercial spaces"},
-    {name:"Decorative & Feature Lighting", subcategory:"Decorative & Feature", file:"images/LED Lighting/04_Decorative_Feature_Lighting.jpg", desc:"Decorative lighting designed to create visual accents and distinctive environments.", use:"Feature walls, architectural details, hospitality spaces, events and themed installations"}
+  "Automotive Parts": [
+    {name:"Aluminum Water Pipe", subcategory:"Cooling System Components", file:"images/Auto Parts/Aluminum Water Pipe.png", desc:"Aluminum water pipe components for automotive cooling and fluid-routing applications.", use:"Engine cooling systems, water circulation and replacement component programs"},
+    {name:"Axle", subcategory:"Chassis & Drivetrain Components", file:"images/Auto Parts/Axle.png", desc:"Automotive axle components for drivetrain and chassis applications.", use:"Passenger vehicles, commercial vehicles and replacement-part programs"},
+    {name:"Control Arm", subcategory:"Suspension Components", file:"images/Auto Parts/Control Arm.png", desc:"Suspension control arm components engineered for stable wheel positioning and vehicle handling.", use:"Passenger vehicles, SUVs, light commercial vehicles and aftermarket supply"},
+    {name:"Engine Mounting", subcategory:"Engine & Mounting Components", file:"images/Auto Parts/Engine Mounting.png", desc:"Engine mounting components designed to support the powertrain and reduce vibration transfer.", use:"Passenger vehicles, commercial vehicles and replacement-part programs"},
+    {name:"Oil Sump", subcategory:"Engine Components", file:"images/Auto Parts/Oil Sump.png", desc:"Oil sump components for engine lubrication-system applications.", use:"Passenger vehicles, commercial vehicles and aftermarket replacement"},
+    {name:"Water Pump", subcategory:"Cooling System Components", file:"images/Auto Parts/Water Pump.png", desc:"Automotive water pump components for engine cooling circulation.", use:"Passenger vehicles, commercial vehicles and automotive replacement programs"}
+  ],
+
+  "LED Lighting System": [
+    {name:"LED Street Light", subcategory:"Street & Road Lighting", file:"images/LED Lighting System/01_LED_Street_Light.jpg", desc:"Reliable outdoor LED street lighting for roads, streets, parking areas and urban infrastructure.", use:"Roads, streets, parking lots, campuses, industrial parks and public areas"},
+    {name:"LED Flood Light", subcategory:"Flood Lighting", file:"images/LED Lighting System/02_LED_Flood_Light.jpg", desc:"High-brightness outdoor flood lighting for buildings, warehouses, façades and large areas.", use:"Buildings, warehouses, façades, yards, construction sites and commercial spaces"},
+    {name:"LED High Bay Light", subcategory:"Industrial Outdoor / High Bay", file:"images/LED Lighting System/03_LED_High_Bay_Light.jpg", desc:"High-output LED lighting for demanding industrial and large-space applications.", use:"Factories, workshops, warehouses, logistics centers and industrial facilities"},
+    {name:"LED Garden Light", subcategory:"Garden & Landscape Lighting", file:"images/LED Lighting System/04_LED_Garden_Light.jpg", desc:"Weather-resistant outdoor garden lighting for paths, parks and landscaped environments.", use:"Parks, gardens, pathways, resorts, communities and landscape projects"},
+    {name:"LED Wall Light", subcategory:"Architectural Wall Lighting", file:"images/LED Lighting System/05_LED_Wall_Light.jpg", desc:"Outdoor wall-mounted LED lighting for architectural accents, entrances and façades.", use:"Building entrances, courtyards, façades, hotels, villas and public buildings"},
+    {name:"LED Sports Light", subcategory:"Sports & Venue Lighting", file:"images/LED Lighting System/06_LED_Sports_Light.jpg", desc:"High-performance outdoor sports lighting for stadiums, fields and large venues.", use:"Stadiums, sports fields, arenas, training grounds and event venues"}
   ],
 
   "LED Display": [
@@ -56,35 +67,38 @@ const PRODUCTS = {
   "Seating System": [
     {name:"Retractable Seating Systems", subcategory:"Retractable Seating", file:"images/Seating System/Retractable system.png", desc:"Space-saving retractable seating solutions for sports halls and multi-purpose venues.", use:"Stadiums, auditoriums, schools, event halls and flexible venues"},
     {name:"Metal Grandstand Systems", subcategory:"Metal Grandstands", file:"images/Seating System/Metal Grand.png", desc:"Durable metal grandstand structures designed for indoor and outdoor facilities.", use:"Sports fields, outdoor events, stadiums and public venues"}
-  ]
+  ]  ,
 
 };
 
 const CATEGORY_DESCRIPTIONS = {
   "Metal Processing & Fabrication":"From precision cutting and CNC machining to welding, finishing and custom components, we support OEM / ODM metal manufacturing requirements.",
-  "LED Lighting":"Energy-efficient LED solutions for architectural, commercial, indoor, outdoor and decorative applications.",
+  "LED Lighting System":"Outdoor LED lighting systems for roads, streets, parks, gardens, buildings, sports venues and public spaces.",
   "LED Display":"High-resolution visual display solutions for indoor, outdoor, commercial, event and stage applications.",
   "LED Landscape Art":"Illuminated sculptures, arches, curtains, letters and seasonal displays for landscape, event and commercial environments.",
   "Premium Bluetooth Audio Series":"Portable speakers, karaoke products, RGB audio, wireless charging and lifestyle sound products for global retail and sourcing programs.",
-  "Seating System":"Retractable seating and metal grandstand systems for sports, event and public facilities."
+  "Seating System":"Retractable seating and metal grandstand systems for sports, event and public facilities.",
+  "Automotive Parts":"Automotive components covering cooling, suspension, drivetrain, engine mounting and lubrication applications for global aftermarket and OEM sourcing."
 };
 
 const CATEGORY_TAGS = {
   "Metal Processing & Fabrication":"Fabrication · CNC · Casting · Stamping · Finishing",
-  "LED Lighting":"Architectural · Indoor · Outdoor · Decorative",
+  "LED Lighting System":"Street · Flood · Garden · Wall · Sports",
   "LED Display":"Indoor · Outdoor · Rental · Commercial",
   "LED Landscape Art":"Sculptures · Structures · Seasonal · Event",
   "Premium Bluetooth Audio Series":"Bluetooth · RGB · Karaoke · Wireless Charging",
-  "Seating System":"Retractable · Grandstand · Venue Solutions"
+  "Seating System":"Retractable · Grandstand · Venue Solutions",
+  "Automotive Parts":"Cooling · Suspension · Drivetrain · Engine Components"
 };
 
 const CORE_CATEGORIES = [
   {name:"Metal Processing & Fabrication", file:"images/Category Covers/Metal Processing & Fabrication.jpg", desc:"Precision manufacturing and custom metal solutions."},
+  {name:"Automotive Parts", file:"images/Auto Parts/Aluminum Water Pipe.png", desc:"Automotive components for cooling, suspension, drivetrain and engine applications."},
   {name:"LED Landscape Art", file:"images/Category Covers/LED Landscape Art.jpg", desc:"Creative illuminated installations and seasonal displays."},
-  {name:"LED Lighting", file:"images/Category Covers/LED Lighting.jpg", desc:"Efficient lighting for architectural and commercial spaces."},
+  {name:"LED Lighting System", file:"images/LED Lighting System/LED_Lighting_System_Hero.jpg", desc:"Outdoor lighting systems for roads, parks, buildings and sports venues."},
   {name:"LED Display", file:"images/Category Covers/LED Display.jpg", desc:"High-resolution display solutions for visual communication."},
   {name:"Premium Bluetooth Audio Series", file:"images/Category Covers/Premium Bluetooth Audio Series.jpg", desc:"Modern wireless audio, RGB and karaoke products."},
-  {name:"Seating System", file:"images/Seating System/Retractable system.png", desc:"Retractable seating and metal grandstand systems."}
+  {name:"Seating System", file:"images/Seating System/Retractable system.png", desc:"Retractable seating and metal grandstand systems."},
 ];
 
 function esc(value){return String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}

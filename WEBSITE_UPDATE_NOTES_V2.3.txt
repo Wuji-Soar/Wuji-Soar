@@ -1,0 +1,10 @@
+WUJI SOAR GLOBAL TRADING — V2.3 LED Lighting System Enhancement
+
+- LED Lighting renamed to LED Lighting System across the site.
+- Positioning clarified as outdoor LED lighting systems.
+- Added outdoor application sections: road/street, landscape/architectural, sports/venue.
+- Added project configuration table covering lighting type, power/output, color temperature, optics/beam, mounting and control.
+- Added four-step sourcing workflow and quotation guidance.
+- Added LED Lighting System benefit cards.
+- Updated homepage category copy to six focused categories and clarified outdoor lighting positioning.
+- Existing generated LED Lighting System hero and six product images retained.
