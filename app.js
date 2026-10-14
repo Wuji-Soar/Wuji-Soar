@@ -31,10 +31,10 @@ const PRODUCTS = {
   ],
 
   "LED Display": [
-    {name:"Indoor Fine-Pitch LED Display", subcategory:"Indoor Fine-Pitch", file:"images/LED Display/01_Indoor_Fine_Pitch_LED_Display.jpg", desc:"High-resolution LED display solutions for indoor viewing environments.", use:"Meeting rooms, control rooms, retail, showrooms, museums and corporate spaces"},
-    {name:"Outdoor Large-Format LED Display", subcategory:"Outdoor Large-Format", file:"images/LED Display/02_Outdoor_Large_Format_LED_Display.jpg", desc:"Large-format LED display concepts for high-visibility outdoor applications.", use:"Advertising, public venues, commercial façades, sports and outdoor events"},
-    {name:"Rental & Stage LED Display", subcategory:"Rental & Stage", file:"images/LED Display/03_Rental_Stage_LED_Display.jpg", desc:"High-impact LED display solutions for events, stages and temporary installations.", use:"Concerts, conferences, exhibitions, festivals, live events and stage production"},
-    {name:"Commercial & Event LED Display", subcategory:"Commercial & Event", file:"images/LED Display/04_Commercial_Event_LED_Display.jpg", desc:"Flexible visual display solutions for commercial communication and events.", use:"Brand activations, retail campaigns, exhibitions, presentations and creative installations"}
+    {name:"Outdoor Rental LED Display", subcategory:"Rental LED Display", file:"images/Category Covers/LED Display.jpg", desc:"Outdoor LED display solution designed for rental events, with modular cabinets and vivid visuals.", use:"Concerts, festivals, exhibitions, corporate events, outdoor stages and temporary event installations"},
+    {name:"Modular LED Cabinet", subcategory:"Modular Cabinet System", file:"images/LED Display/03_Rental_Stage_LED_Display.jpg", desc:"Modular cabinet design supports efficient handling, assembly and disassembly for rental workflows.", use:"Rental inventory, touring events, stage production and temporary display installations"},
+    {name:"Quick Installation", subcategory:"Quick-Lock Connections", file:"images/LED Display/04_Commercial_Event_LED_Display.jpg", desc:"Rental-oriented setup concept focused on quick-lock connections and efficient installation.", use:"Fast event changeovers, touring productions and time-sensitive outdoor events"},
+    {name:"Outdoor Event Applications", subcategory:"Outdoor Event Solutions", file:"images/LED Display/02_Outdoor_Large_Format_LED_Display.jpg", desc:"Outdoor visual display solutions for event environments and live audience viewing.", use:"Outdoor concerts, festivals, sporting events, public celebrations and brand activations"}
   ],
 
   "LED Landscape Art": [
@@ -52,18 +52,6 @@ const PRODUCTS = {
     {name:"LED Curtain(2)", subcategory:"Curtain & Net Lighting", file:"images/LED Landscape Art/LED Curtain(2).png", desc:"Programmable-style LED curtain display for decorative light patterns.", use:"Stage backdrops, events, retail displays and interiors"}
   ],
 
-  "Premium Bluetooth Audio Series": [
-    {name:"Mini RGB Portable Speaker H18", subcategory:"Portable Bluetooth Speakers", file:"images/Premium Bluetooth Audio Series/1_H18.png", desc:"Compact portable speaker with RGB lighting.", use:"Gaming, parties, gifting and lifestyle retail"},
-    {name:"Magnetic Wireless Charging H11", subcategory:"Wireless Charging Audio", file:"images/Premium Bluetooth Audio Series/2_H11.png", desc:"Bluetooth audio product with a magnetic wireless charging concept.", use:"Desktop, bedside and lifestyle electronics"},
-    {name:"Portable Bluetooth Speaker H15", subcategory:"Portable Bluetooth Speakers", file:"images/Premium Bluetooth Audio Series/3_H15.png", desc:"Portable Bluetooth speaker with compact lifestyle design.", use:"Travel, gifting and everyday audio"},
-    {name:"Alarm Clock Wireless H39", subcategory:"Smart Desktop Audio", file:"images/Premium Bluetooth Audio Series/4_H39.png", desc:"Desktop audio product combining alarm-clock and wireless charging styling.", use:"Bedroom, office and bedside electronics"},
-    {name:"Outdoor Karaoke Speaker K100", subcategory:"Karaoke & Party Audio", file:"images/Premium Bluetooth Audio Series/5_K100.png", desc:"Large-format portable karaoke speaker with lighting-focused styling.", use:"Outdoor entertainment, parties and karaoke"},
-    {name:"IPX4 Waterproof Bass H16", subcategory:"Outdoor Bluetooth Speakers", file:"images/Premium Bluetooth Audio Series/6_H16.png", desc:"Portable Bluetooth speaker focused on bass and splash-resistant use.", use:"Outdoor leisure, travel and poolside-style environments"},
-    {name:"RGB Light Mic Speaker H14", subcategory:"Karaoke & Party Audio", file:"images/Premium Bluetooth Audio Series/7_H14.png", desc:"Speaker and microphone combination with RGB lighting.", use:"Karaoke, parties, entertainment and gifting"},
-    {name:"Portable Bluetooth Speaker H002", subcategory:"Portable Bluetooth Speakers", file:"images/Premium Bluetooth Audio Series/H002.png", desc:"Compact portable Bluetooth speaker.", use:"Portable audio, gifting and retail"},
-    {name:"Bluetooth Speaker H12", subcategory:"Portable Bluetooth Speakers", file:"images/Premium Bluetooth Audio Series/H12.png", desc:"Portable Bluetooth speaker for everyday wireless listening.", use:"Retail audio, travel and home use"},
-    {name:"Premium Bluetooth Speaker H120 Pro", subcategory:"Premium Home & Party Audio", file:"images/Premium Bluetooth Audio Series/H120 Pro.png", desc:"Premium-style Bluetooth speaker with a larger enclosure.", use:"Home, party and higher-value audio retail"}
-  ],
   "Seating System": [
     {name:"Retractable Seating Systems", subcategory:"Retractable Seating", file:"images/Seating System/Retractable system.png", desc:"Space-saving retractable seating solutions for sports halls and multi-purpose venues.", use:"Stadiums, auditoriums, schools, event halls and flexible venues"},
     {name:"Metal Grandstand Systems", subcategory:"Metal Grandstands", file:"images/Seating System/Metal Grand.png", desc:"Durable metal grandstand structures designed for indoor and outdoor facilities.", use:"Sports fields, outdoor events, stadiums and public venues"}
@@ -73,20 +61,18 @@ const PRODUCTS = {
 
 const CATEGORY_DESCRIPTIONS = {
   "Metal Processing & Fabrication":"From precision cutting and CNC machining to welding, finishing and custom components, we support OEM / ODM metal manufacturing requirements.",
-  "LED Lighting System":"Outdoor LED lighting systems for roads, streets, parks, gardens, buildings, sports venues and public spaces.",
-  "LED Display":"High-resolution visual display solutions for indoor, outdoor, commercial, event and stage applications.",
+  "LED Lighting System":"Outdoor LED lighting systems for roads, parks, gardens, buildings, industrial sites and sports venues.",
+  "LED Display":"Outdoor rental LED displays with modular cabinets, quick-lock connections and efficient setup for event applications.",
   "LED Landscape Art":"Illuminated sculptures, arches, curtains, letters and seasonal displays for landscape, event and commercial environments.",
-  "Premium Bluetooth Audio Series":"Portable speakers, karaoke products, RGB audio, wireless charging and lifestyle sound products for global retail and sourcing programs.",
-  "Seating System":"Retractable seating and metal grandstand systems for sports, event and public facilities.",
+  "Seating System":"Professional retractable seating and durable metal grandstand systems for sports halls, auditoriums, stadiums and public venues.",
   "Automotive Parts":"Automotive components covering cooling, suspension, drivetrain, engine mounting and lubrication applications for global aftermarket and OEM sourcing."
 };
 
 const CATEGORY_TAGS = {
   "Metal Processing & Fabrication":"Fabrication · CNC · Casting · Stamping · Finishing",
   "LED Lighting System":"Street · Flood · Garden · Wall · Sports",
-  "LED Display":"Indoor · Outdoor · Rental · Commercial",
+  "LED Display":"Outdoor Rental · Modular Cabinets · Quick Installation · Events",
   "LED Landscape Art":"Sculptures · Structures · Seasonal · Event",
-  "Premium Bluetooth Audio Series":"Bluetooth · RGB · Karaoke · Wireless Charging",
   "Seating System":"Retractable · Grandstand · Venue Solutions",
   "Automotive Parts":"Cooling · Suspension · Drivetrain · Engine Components"
 };
@@ -97,7 +83,6 @@ const CORE_CATEGORIES = [
   {name:"LED Landscape Art", file:"images/Category Covers/LED Landscape Art.jpg", desc:"Creative illuminated installations and seasonal displays."},
   {name:"LED Lighting System", file:"images/LED Lighting System/LED_Lighting_System_Hero.jpg", desc:"Outdoor lighting systems for roads, parks, buildings and sports venues."},
   {name:"LED Display", file:"images/Category Covers/LED Display.jpg", desc:"High-resolution display solutions for visual communication."},
-  {name:"Premium Bluetooth Audio Series", file:"images/Category Covers/Premium Bluetooth Audio Series.jpg", desc:"Modern wireless audio, RGB and karaoke products."},
   {name:"Seating System", file:"images/Seating System/Retractable system.png", desc:"Retractable seating and metal grandstand systems."},
 ];
 
